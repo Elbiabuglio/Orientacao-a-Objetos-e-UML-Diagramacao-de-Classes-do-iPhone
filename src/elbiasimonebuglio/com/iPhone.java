@@ -1,7 +1,6 @@
 package elbiasimonebuglio.com;
 
-public class iPhone  implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet{
-
+public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
     @Override
     public void ligar(String numero) {
 
@@ -46,6 +45,4 @@ public class iPhone  implements ReprodutorMusical, AparelhoTelefonico, Navegador
     public void selecionarMusica() {
 
     }
-}
-
 }
